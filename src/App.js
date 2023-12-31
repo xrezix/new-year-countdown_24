@@ -8,7 +8,7 @@ import Countdown from "react-countdown";
 function App() {
   const [newYearMessage, setNewYearMessage] = useState([
     "Bye 2023💨",
-    "Thanks For Everything❤",
+    "Thanks For Everything",
   ]);
   const particleInitialization = async (engine) => {
     await loadFireworksPreset(engine);
